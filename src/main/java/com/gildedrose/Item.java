@@ -22,6 +22,8 @@ public class Item {
                 return new Sulfuras(sellIn, quality);
             case "Backstage passes to a TAFKAL80ETC concert":
                 return new BackstagePass(sellIn, quality);
+            case "Conjured":
+                return new Conjured(sellIn, quality);
             default:
                 return new Item(name, sellIn, quality);
         }
